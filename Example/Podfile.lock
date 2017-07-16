@@ -1,0 +1,16 @@
+PODS:
+  - Eelay (0.1.0)
+
+DEPENDENCIES:
+  - Eelay (from `../`)
+
+EXTERNAL SOURCES:
+  Eelay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Eelay: 7370621b0ce504fc78b1cae20d0545e0c9394513
+
+PODFILE CHECKSUM: 3895e221fcce8e2ca472763d2981f4f10a2e21be
+
+COCOAPODS: 1.2.1

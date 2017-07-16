@@ -15,6 +15,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		E570188F1F1BDAFC00FD9BCA /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57018841F1BDA9900FD9BCA /* ViewController1.swift */; };
+		E57018901F1BDC7B00FD9BCA /* java.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E570188B1F1BDAC500FD9BCA /* java.jpg */; };
+		E57018911F1BDC7E00FD9BCA /* php.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E570188C1F1BDAC500FD9BCA /* php.jpg */; };
+		E57018921F1BDC8100FD9BCA /* python.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E570188D1F1BDAC500FD9BCA /* python.jpg */; };
+		E57018931F1BDC8300FD9BCA /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = E570188E1F1BDAC500FD9BCA /* swift.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +36,7 @@
 		058C111FB9B1FFFF255DC443 /* Pods-Eelay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eelay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eelay_Tests/Pods-Eelay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1AB54431639C467A2332589C /* Pods_Eelay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eelay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20915FC8D00551F59F01BEC5 /* Pods-Eelay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eelay_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eelay_Tests/Pods-Eelay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48454F7911EDEE878B15CEFA /* Eelay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Eelay.podspec; path = ../Eelay.podspec; sourceTree = "<group>"; };
+		48454F7911EDEE878B15CEFA /* Eelay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Eelay.podspec; path = ../Eelay.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Eelay_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eelay_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +48,15 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69FE165E70D3A837704BA0FA /* Pods_Eelay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eelay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BC629D37C11639132E0E865 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B91B6BBAD5C7A19A30BD67CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8BC629D37C11639132E0E865 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B91B6BBAD5C7A19A30BD67CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEF9B59AB1D3716A6E04CF73 /* Pods-Eelay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eelay_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eelay_Example/Pods-Eelay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DBEE5866A8B4CB66EE40738E /* Pods-Eelay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eelay_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eelay_Example/Pods-Eelay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E57018841F1BDA9900FD9BCA /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		E570188B1F1BDAC500FD9BCA /* java.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = java.jpg; sourceTree = "<group>"; };
+		E570188C1F1BDAC500FD9BCA /* php.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = php.jpg; sourceTree = "<group>"; };
+		E570188D1F1BDAC500FD9BCA /* python.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = python.jpg; sourceTree = "<group>"; };
+		E570188E1F1BDAC500FD9BCA /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +112,9 @@
 		607FACD21AFB9204008FA782 /* Example for Eelay */ = {
 			isa = PBXGroup;
 			children = (
+				E570188A1F1BDAC500FD9BCA /* imgs */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				E57018841F1BDA9900FD9BCA /* ViewController1.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -159,6 +171,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E570188A1F1BDAC500FD9BCA /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				E570188B1F1BDAC500FD9BCA /* java.jpg */,
+				E570188C1F1BDAC500FD9BCA /* php.jpg */,
+				E570188D1F1BDAC500FD9BCA /* python.jpg */,
+				E570188E1F1BDAC500FD9BCA /* swift.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,15 +233,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PD9ZA48KDC;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PD9ZA48KDC;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -249,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				E57018901F1BDC7B00FD9BCA /* java.jpg in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				E57018911F1BDC7E00FD9BCA /* php.jpg in Resources */,
+				E57018931F1BDC8300FD9BCA /* swift.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				E57018921F1BDC8100FD9BCA /* python.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E570188F1F1BDAFC00FD9BCA /* ViewController1.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -412,14 +442,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -459,14 +495,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -496,7 +538,9 @@
 			baseConfigurationReference = CEF9B59AB1D3716A6E04CF73 /* Pods-Eelay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PD9ZA48KDC;
 				INFOPLIST_FILE = Eelay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +554,9 @@
 			baseConfigurationReference = DBEE5866A8B4CB66EE40738E /* Pods-Eelay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PD9ZA48KDC;
 				INFOPLIST_FILE = Eelay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -523,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20915FC8D00551F59F01BEC5 /* Pods-Eelay_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PD9ZA48KDC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 058C111FB9B1FFFF255DC443 /* Pods-Eelay_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PD9ZA48KDC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
