@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 fileprivate struct SoNode<DataType>{
     static func count(list:[Any]) -> Int
     {
@@ -42,15 +43,17 @@ prefix operator .>
 prefix operator .<
 
 
-prefix public func .><T>(value:T) -> [String:T]  {
-
+public prefix func .><T>(value:T) -> [String:T]  {
+    
     return [">":value]
 }
 
 
-prefix public func .<<T>(value:T) -> [String:T]  {
+public prefix func .<<T>(value:T) -> [String:T]  {
     return ["<":value]
 }
+
+
 
 infix operator .&
 
@@ -59,7 +62,6 @@ public func .&<T>(value:T,p:Double) -> Any  {
         one["p"] = Int(p)
         return one
     }
-    
     if var one = value as? [String:Double]{
         one["p"] = p
         return one
@@ -84,10 +86,10 @@ public func .&<T>(value:T,p:Double) -> Any  {
         return ["=":value,"p":p]
     }
     
+    
     return value
     
 }
-
 
 
 
@@ -97,6 +99,7 @@ public typealias ee = easy
 open class easy {
     
     static var priority:Float = 800
+    
     
     public class lay{
         var value:NSLayoutAttribute
@@ -112,6 +115,8 @@ open class easy {
         init(v:NSLayoutAttribute,p:Float=800){
             self.values.append(lay(v: v))
         }
+        
+        
         
         public var T:easy.map{
             self.values.append(lay(v: .top))
@@ -187,6 +192,32 @@ open class easy {
 
 
 
+
+//
+//
+//public struct TP {
+//
+//}
+//
+//public extension TP
+//{
+//    typealias lays = [[Any]]
+//}
+//
+//
+//
+//
+//extension String
+//{
+//    var cg_float:CGFloat{
+//        get{
+//            let str = NSString(string: self)
+//            return CGFloat(str.floatValue)
+//        }
+//    }
+//}
+//
+
 public extension TP
 {
     typealias lays = [[Any]]
@@ -208,18 +239,26 @@ extension String
 
 
 
-
 public extension UIView{
     
     public var eelay:TP.lays {
         set(newValue){
             let format = UIView.eeformat(lays: newValue)
+            //            print(format)
             _ = UIView.eelay(lays: format, at: self)
         }
         get{
             return TP.lays()
         }
     }
+    
+    @discardableResult
+    public func setEeLays(lays:TP.lays) ->([[NSLayoutConstraint]],[NSLayoutConstraint]) {
+        let format = UIView.eeformat(lays: lays)
+        //            print(format)
+        return UIView.eelay(lays: format, at: self)
+    }
+    
     
     @discardableResult
     public func append(_ rules:Any...)->[NSLayoutConstraint] {
@@ -237,9 +276,9 @@ public extension UIView{
         
         return [NSLayoutConstraint]()
     }
-
     
-    static public func eeformat(lays:TP.lays) -> TP.lays {
+    
+    static func eeformat(lays:TP.lays) -> TP.lays {
         var new_lays = [[Any]]()
         
         for one_lay in lays
@@ -252,7 +291,7 @@ public extension UIView{
                 {
                     new_one.append(view)
                 }
-          
+                
                 //宽度-------------------------------------------
                 if let width = lay as? Int //width
                 {
@@ -270,6 +309,7 @@ public extension UIView{
                 {
                     new_one.append(width.&800)
                 }
+                
                 
                 //高度-------------------------------------------
                 if let height = lay as? String //height
@@ -409,8 +449,8 @@ public extension UIView{
                             }
                             
                             let c =  NSLayoutConstraint(item: t_view, attribute: NSLayoutAttribute.height, relatedBy: relatedBy, toItem: nil, attribute: NSLayoutAttribute.height, multiplier: 1, constant: value.cg_float)
-                            c.priority = UILayoutPriority.init(priority)
-
+                            
+                            c.priority = priority
                             one_constains.append(c)
                             t_view.superview!.addConstraint(c)
                             continue
@@ -448,11 +488,12 @@ public extension UIView{
                                 priority = Float("\(_priority)")!
                             }
                             
-                            let c =  NSLayoutConstraint(item: t_view, attribute: NSLayoutAttribute.width, relatedBy: relatedBy, toItem: nil, attribute: NSLayoutAttribute.width, multiplier: 1, constant: value.cg_float)
-                            c.priority = UILayoutPriority.init(priority)
                             
+                            let c =  NSLayoutConstraint(item: t_view, attribute: NSLayoutAttribute.width, relatedBy: relatedBy, toItem: nil, attribute: NSLayoutAttribute.width, multiplier: 1, constant: value.cg_float)
+                            c.priority = priority
                             one_constains.append(c)
-                            at.addConstraint(c)
+                            t_view.superview?.addConstraint(c)
+                            
                             continue
                         }
                     }
@@ -476,13 +517,12 @@ public extension UIView{
                             to_atr = one_lay[0] as! easy.map
                             this_atr = one_lay[0] as! easy.map
                         }
-                        
                         if co_count == 2
                         {
                             to_atr = one_lay[0] as! easy.map
                             this_atr = one_lay[1] as! easy.map
                         }
-
+                        
                         //取值
                         var _values = [[String:Any]]()
                         if let v = one_lay.last as? [[String:Any]]
@@ -545,7 +585,7 @@ public extension UIView{
                                     }
                                     
                                     let x =  NSLayoutConstraint(item: t_view, attribute: lay0.value, relatedBy: relatedBy, toItem: relate_v, attribute: lay1.value, multiplier: 1, constant: value.cg_float)
-                                    x.priority = UILayoutPriority.init(priority)
+                                    x.priority = priority
                                     one_constains.append(x)
                                     t_view.superview!.addConstraint(x)
                                 }
@@ -571,6 +611,7 @@ public extension UIView{
         return (constrains,cons)
     }
 }
+
 
 
 
