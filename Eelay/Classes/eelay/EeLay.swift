@@ -450,7 +450,7 @@ public extension UIView{
                             
                             let c =  NSLayoutConstraint(item: t_view, attribute: NSLayoutAttribute.height, relatedBy: relatedBy, toItem: nil, attribute: NSLayoutAttribute.height, multiplier: 1, constant: value.cg_float)
                             
-                            c.priority = priority
+                            c.priority = UILayoutPriority.init(priority)
                             one_constains.append(c)
                             t_view.superview!.addConstraint(c)
                             continue
@@ -490,7 +490,8 @@ public extension UIView{
                             
                             
                             let c =  NSLayoutConstraint(item: t_view, attribute: NSLayoutAttribute.width, relatedBy: relatedBy, toItem: nil, attribute: NSLayoutAttribute.width, multiplier: 1, constant: value.cg_float)
-                            c.priority = priority
+                            c.priority = UILayoutPriority.init(priority)
+
                             one_constains.append(c)
                             t_view.superview?.addConstraint(c)
                             
@@ -585,7 +586,7 @@ public extension UIView{
                                     }
                                     
                                     let x =  NSLayoutConstraint(item: t_view, attribute: lay0.value, relatedBy: relatedBy, toItem: relate_v, attribute: lay1.value, multiplier: 1, constant: value.cg_float)
-                                    x.priority = priority
+                                    x.priority = UILayoutPriority.init(priority)
                                     one_constains.append(x)
                                     t_view.superview!.addConstraint(x)
                                 }
