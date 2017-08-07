@@ -238,12 +238,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = PD9ZA48KDC;
+						DevelopmentTeam = ZFFQWZTGDK;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = PD9ZA48KDC;
+						DevelopmentTeam = ZFFQWZTGDK;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -479,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -525,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -538,9 +538,9 @@
 			baseConfigurationReference = CEF9B59AB1D3716A6E04CF73 /* Pods-Eelay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PD9ZA48KDC;
+				DEVELOPMENT_TEAM = ZFFQWZTGDK;
 				INFOPLIST_FILE = Eelay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -554,9 +554,9 @@
 			baseConfigurationReference = DBEE5866A8B4CB66EE40738E /* Pods-Eelay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PD9ZA48KDC;
+				DEVELOPMENT_TEAM = ZFFQWZTGDK;
 				INFOPLIST_FILE = Eelay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -569,7 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20915FC8D00551F59F01BEC5 /* Pods-Eelay_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = PD9ZA48KDC;
+				DEVELOPMENT_TEAM = ZFFQWZTGDK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -590,7 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 058C111FB9B1FFFF255DC443 /* Pods-Eelay_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = PD9ZA48KDC;
+				DEVELOPMENT_TEAM = ZFFQWZTGDK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
