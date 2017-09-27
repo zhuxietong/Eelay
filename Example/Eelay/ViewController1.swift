@@ -29,7 +29,7 @@ class ViewController1: UIViewController {
             [content,.>"200".&1000,[ee.L.B.R,[30,-30.&500,-30]],[name,ee.B,ee.T,40]]
         ]
         
-        head.backgroundColor = .gray
+        head.backgroundColor = UIColor(shex:"#ff0000")
         head.text = "head"
         head.textAlignment = .center
         

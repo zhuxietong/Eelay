@@ -10,13 +10,18 @@ import Foundation
 import UIKit
 
 
-private extension String {
-    subscript (index: Int) -> Character {
-        return self[self.characters.index(self.startIndex, offsetBy: index)]
-    }
+public extension String {
     
-    subscript (range: Range<Int>) -> String {
-        return String(self[self.characters.index(self.startIndex, offsetBy: range.lowerBound)..<self.characters.index(self.startIndex, offsetBy: range.upperBound)])
+//    subscript (index: Int) -> Character {
+//        return self[self.characters.index(self.startIndex, offsetBy: index)]
+//    }
+//
+//    subscript (range: Range<Int>) -> String {
+//        return String(self[self.characters.index(self.startIndex, offsetBy: range.lowerBound)..<self.characters.index(self.startIndex, offsetBy: range.upperBound)])
+//    }
+    
+    public func sub(from:Int,end:Int) -> String {
+        return String(self[self.characters.index(self.startIndex, offsetBy: from)..<self.characters.index(self.startIndex, offsetBy: end)])
     }
 }
 
@@ -32,9 +37,8 @@ public extension UIColor {
             
             
             let index = hex.index(hex.startIndex, offsetBy: 1)
-            hex = hex.substring(from: index)
-            //            let index = hex.startIndex.advancedBy(1)
-            //            hex         = hex.substringFromIndex(index)
+            hex = String(hex[index..<hex.endIndex])
+ 
         }
         
         let scanner = Scanner(string: hex)
