@@ -28,7 +28,8 @@ class ViewController:UITableViewController {
         
         tableView.register(Cell.self, forCellReuseIdentifier: "cell")
         tableView.estimatedRowHeight = 100
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.rowHeight = UITableViewAutomaticDimensionUITableView.automaticDimension
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -61,7 +62,7 @@ class ViewController:UITableViewController {
 }
 
 class Cell:UITableViewCell{
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addLayRules()
