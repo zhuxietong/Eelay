@@ -32,6 +32,7 @@ class ViewController:UITableViewController {
 //        tableView.rowHeight = UITableViewAutomaticDimensionUITableView.automaticDimension
         tableView.delegate = self
         tableView.dataSource = self
+
         
     }
     
@@ -91,7 +92,7 @@ class Cell:UITableViewCell{
         contentView.eelay = [
             [headV,"50",50,[ee.T.L,[16,16]]],
             [nameL,[headV,ee.R.Y,ee.L.Y,[10,0]],[ee.R,-16]],
-            [infoL,[headV,ee.B,ee.T,10],[ee.L.B.R,[16,-8,-16]],.<"90".&1000]
+            [infoL,[headV,ee.B,ee.T,10],[ee.L.B.R,[16,-8,-16]],.<"90".+1000]
         ]
         infoL.numberOfLines = 0
     }
