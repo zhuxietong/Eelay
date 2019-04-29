@@ -23,13 +23,15 @@ class ViewController1: UIViewController {
         
         
         
+        
         view.eelay = [
-            [back,[ee.T.L.B.R,[20,20,-20,-20]]],
+            [back,[ee.T.L.B.R.safe]],
             [head,100,"100",[ee.T.X,[80,0]]],
             [name,.<200,"30",[ee.X,-20],[head,ee.B,ee.T,30]],
             [age,[name,ee.R,ee.L,10],[name,ee.Y]],
             [content,.>"200".+1000,[ee.L.B.R,[30,-30.+500,-30]],[name,ee.B,ee.T,40]]
         ]
+       
         
         head.backgroundColor = UIColor(shex:"#ff0000")
         head.text = "head"

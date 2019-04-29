@@ -15,6 +15,7 @@
 		40C3C6A1D00A5987F5778063D1F1CADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5DD89BFCC74D6649CF591874487320C1 /* Pods-Eelay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91F6AC188FA236B5C1D3DA1D68C7CC /* Pods-Eelay_Example-dummy.m */; };
 		D039AD7E4D952E7E5786A8B3F5C19DA9 /* Eelay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA14008B3972603ECE694440B099CB6 /* Eelay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D30A0A642276EADD00B3D39D /* Array&Dictionary-(+-).swift in Sources */ = {isa = PBXBuildFile; fileRef = D30A0A632276EADD00B3D39D /* Array&Dictionary-(+-).swift */; };
 		D343A1931F38108F0011C4B4 /* TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343A1921F38108F0011C4B4 /* TP.swift */; };
 		D3E9DAED227699C500D88943 /* Collection+mutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9DAE9227699C500D88943 /* Collection+mutable.swift */; };
 		D3E9DAEE227699C500D88943 /* NSArray+nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9DAEA227699C500D88943 /* NSArray+nodes.swift */; };
@@ -61,6 +62,7 @@
 		B3B35F8F65688F5F4ED75CCD48E591D2 /* Eelay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eelay.modulemap; sourceTree = "<group>"; };
 		B7FB4DE77CD1C28303E2893DF2C5DBA6 /* Pods-Eelay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eelay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B8726A110BD9283E102FC2F4029D2418 /* Pods-Eelay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eelay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D30A0A632276EADD00B3D39D /* Array&Dictionary-(+-).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array&Dictionary-(+-).swift"; sourceTree = "<group>"; };
 		D343A1921F38108F0011C4B4 /* TP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TP.swift; sourceTree = "<group>"; };
 		D3E9DAE9227699C500D88943 /* Collection+mutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+mutable.swift"; sourceTree = "<group>"; };
 		D3E9DAEA227699C500D88943 /* NSArray+nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+nodes.swift"; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 		E570187B1F1BD63100FD9BCA /* object */ = {
 			isa = PBXGroup;
 			children = (
+				D30A0A632276EADD00B3D39D /* Array&Dictionary-(+-).swift */,
 				D3E9DAE9227699C500D88943 /* Collection+mutable.swift */,
 				D3E9DAEA227699C500D88943 /* NSArray+nodes.swift */,
 				D3E9DAEC227699C500D88943 /* NSDictionary+nodes.swift */,
@@ -391,6 +394,7 @@
 				D3E9DAEE227699C500D88943 /* NSArray+nodes.swift in Sources */,
 				E570187F1F1BD7CA00FD9BCA /* EeLay.swift in Sources */,
 				29AE3E115DFFF63FD49B9A47F0B049AC /* Eelay-dummy.m in Sources */,
+				D30A0A642276EADD00B3D39D /* Array&Dictionary-(+-).swift in Sources */,
 				D343A1931F38108F0011C4B4 /* TP.swift in Sources */,
 				D3E9DAEF227699C500D88943 /* String+reg.swift in Sources */,
 				E57018811F1BD7D000FD9BCA /* Color-hex.swift in Sources */,
