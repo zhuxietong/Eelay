@@ -16,9 +16,12 @@
 		5DD89BFCC74D6649CF591874487320C1 /* Pods-Eelay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91F6AC188FA236B5C1D3DA1D68C7CC /* Pods-Eelay_Example-dummy.m */; };
 		D039AD7E4D952E7E5786A8B3F5C19DA9 /* Eelay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA14008B3972603ECE694440B099CB6 /* Eelay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D343A1931F38108F0011C4B4 /* TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343A1921F38108F0011C4B4 /* TP.swift */; };
+		D3E9DAED227699C500D88943 /* Collection+mutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9DAE9227699C500D88943 /* Collection+mutable.swift */; };
+		D3E9DAEE227699C500D88943 /* NSArray+nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9DAEA227699C500D88943 /* NSArray+nodes.swift */; };
+		D3E9DAEF227699C500D88943 /* String+reg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9DAEB227699C500D88943 /* String+reg.swift */; };
+		D3E9DAF0227699C500D88943 /* NSDictionary+nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9DAEC227699C500D88943 /* NSDictionary+nodes.swift */; };
 		DC3497C9DE586D99E87F802E47E1B95D /* Pods-Eelay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388B85C07F21B81DC04C451E89C2ADE /* Pods-Eelay_Tests-dummy.m */; };
 		E570187F1F1BD7CA00FD9BCA /* EeLay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57018781F1BD63100FD9BCA /* EeLay.swift */; };
-		E57018801F1BD7CD00FD9BCA /* Collection+mutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570187C1F1BD63100FD9BCA /* Collection+mutable.swift */; };
 		E57018811F1BD7D000FD9BCA /* Color-hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570187A1F1BD63100FD9BCA /* Color-hex.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,11 +62,14 @@
 		B7FB4DE77CD1C28303E2893DF2C5DBA6 /* Pods-Eelay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eelay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B8726A110BD9283E102FC2F4029D2418 /* Pods-Eelay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eelay_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D343A1921F38108F0011C4B4 /* TP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TP.swift; sourceTree = "<group>"; };
+		D3E9DAE9227699C500D88943 /* Collection+mutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+mutable.swift"; sourceTree = "<group>"; };
+		D3E9DAEA227699C500D88943 /* NSArray+nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+nodes.swift"; sourceTree = "<group>"; };
+		D3E9DAEB227699C500D88943 /* String+reg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+reg.swift"; sourceTree = "<group>"; };
+		D3E9DAEC227699C500D88943 /* NSDictionary+nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+nodes.swift"; sourceTree = "<group>"; };
 		D3EECD68D7016C9C1F6FF0D7E809FB60 /* Pods-Eelay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eelay_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E470DF48488C5BE1C9225619EB960BEB /* Pods_Eelay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eelay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57018781F1BD63100FD9BCA /* EeLay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EeLay.swift; sourceTree = "<group>"; };
 		E570187A1F1BD63100FD9BCA /* Color-hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-hex.swift"; sourceTree = "<group>"; };
-		E570187C1F1BD63100FD9BCA /* Collection+mutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+mutable.swift"; sourceTree = "<group>"; };
 		EB6B637AD85BB8C88AEA58C7D41922CA /* Eelay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eelay.xcconfig; sourceTree = "<group>"; };
 		EEBFFB0B4B5C3A4D4BD96D43818249A9 /* Pods-Eelay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eelay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F0FD76FD535B9B076855D97FC8660288 /* Pods-Eelay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eelay_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,7 +248,10 @@
 		E570187B1F1BD63100FD9BCA /* object */ = {
 			isa = PBXGroup;
 			children = (
-				E570187C1F1BD63100FD9BCA /* Collection+mutable.swift */,
+				D3E9DAE9227699C500D88943 /* Collection+mutable.swift */,
+				D3E9DAEA227699C500D88943 /* NSArray+nodes.swift */,
+				D3E9DAEC227699C500D88943 /* NSDictionary+nodes.swift */,
+				D3E9DAEB227699C500D88943 /* String+reg.swift */,
 			);
 			path = object;
 			sourceTree = "<group>";
@@ -379,11 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57018801F1BD7CD00FD9BCA /* Collection+mutable.swift in Sources */,
+				D3E9DAEE227699C500D88943 /* NSArray+nodes.swift in Sources */,
 				E570187F1F1BD7CA00FD9BCA /* EeLay.swift in Sources */,
 				29AE3E115DFFF63FD49B9A47F0B049AC /* Eelay-dummy.m in Sources */,
 				D343A1931F38108F0011C4B4 /* TP.swift in Sources */,
+				D3E9DAEF227699C500D88943 /* String+reg.swift in Sources */,
 				E57018811F1BD7D000FD9BCA /* Color-hex.swift in Sources */,
+				D3E9DAF0227699C500D88943 /* NSDictionary+nodes.swift in Sources */,
+				D3E9DAED227699C500D88943 /* Collection+mutable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
