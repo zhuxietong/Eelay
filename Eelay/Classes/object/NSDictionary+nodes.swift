@@ -227,7 +227,7 @@ extension NSMutableDictionary
         }
     }
     
-    internal func value(obj node:String) -> Any?
+    public func value(obj node:String) -> Any?
     {
         var newNode = node
 
@@ -235,7 +235,7 @@ extension NSMutableDictionary
         return obj
     }
     
-    func set(value:AnyObject?,toNode:String)
+    public func set(value:AnyObject?,toNode:String)
     {
         var paths = toNode.components(separatedBy: ".")
         let name = paths.last
