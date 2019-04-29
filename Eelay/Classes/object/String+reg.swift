@@ -9,7 +9,7 @@
 import Foundation
 import Swift
 
-extension String
+public extension String
 {
     
     var CGFloatValue:CGFloat
@@ -77,7 +77,7 @@ public struct 正则 {
 }
 
 
-extension NSString
+public extension NSString
 {
     func subStrings(withReg reg:String)->[String]
     {
