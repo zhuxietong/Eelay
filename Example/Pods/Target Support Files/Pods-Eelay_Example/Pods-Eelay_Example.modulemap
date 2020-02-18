@@ -1,6 +1,0 @@
-framework module Pods_Eelay_Example {
-  umbrella header "Pods-Eelay_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

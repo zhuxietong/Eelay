@@ -89,6 +89,7 @@ public typealias ee = easy
 enum EasyTarget{
     case view
     case safeArea
+    case none
 }
 
 open class easy {
@@ -108,6 +109,8 @@ open class easy {
                     return view
                     // Fallback on earlier versions
                 }
+            case .none:
+                return nil
             default:
                 return view
             }
@@ -163,7 +166,12 @@ open class easy {
             }
             return self
         }
-        
+        public var none:easy.map{
+            for one in values {
+                one.target = .none
+            }
+            return self
+        }
         
         public var width:easy.map{
             self.values.append(lay(v: .width))
@@ -174,7 +182,6 @@ open class easy {
             self.values.append(lay(v: .height))
             return self
         }
-        
         
     }
     
@@ -210,6 +217,7 @@ open class easy {
     public static var none:easy.map{
         return map(v: NSLayoutConstraint.Attribute.notAnAttribute)
     }
+
 }
 
 
@@ -599,11 +607,25 @@ public extension UIView{
                                     let toItem = lay1.constrainTarget(view: relate_v)
 
                                     
-                                    let x =  NSLayoutConstraint(item: item!, attribute: lay0.value, relatedBy: relatedBy, toItem: toItem, attribute: lay1.value, multiplier: 1, constant: value.cg_float)
+                                    switch lay0.value {
+                                    case .width,.height:
+                                        var multiplier = value.cg_float
+                                        if multiplier == 0{
+                                            multiplier = 1
+                                        }
+                                        let x =  NSLayoutConstraint(item: item!, attribute: lay0.value, relatedBy: relatedBy, toItem: toItem, attribute: lay1.value, multiplier: multiplier, constant: 0)
+                                            x.priority = UILayoutPriority(rawValue:priority)
+                                            one_constains.append(x)
+                                            t_view.superview!.addConstraint(x)
+                                    default:
+                                        let x =  NSLayoutConstraint(item: item!, attribute: lay0.value, relatedBy: relatedBy, toItem: toItem, attribute: lay1.value, multiplier: 1, constant: value.cg_float)
+                                        
+                                        x.priority = UILayoutPriority(rawValue:priority)
+                                        one_constains.append(x)
+                                        t_view.superview!.addConstraint(x)
+                                    }
                                     
-                                    x.priority = UILayoutPriority(rawValue:priority)
-                                    one_constains.append(x)
-                                    t_view.superview!.addConstraint(x)
+                                    
                                 }
                             }
                         }
