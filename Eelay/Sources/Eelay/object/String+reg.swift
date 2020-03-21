@@ -8,6 +8,7 @@
 
 import Foundation
 import Swift
+import UIKit
 
 public extension String
 {

@@ -21,12 +21,9 @@ class ViewController1: UIViewController {
         let back = UIView()
         back.backgroundColor = UIColor(white: 0.7, alpha: 0.9)
         
-        
-        
-        
         view.eelay = [
             [back,[ee.T.L.B.R.safe]],
-            [head,100,"100",[ee.T.X,[80,0]]],
+            [head,"80",[head,ee.width,ee.height,2],[ee.T.X,[80,0]]],
             [name,.<200,"30",[ee.X,-20],[head,ee.B,ee.T,30]],
             [age,[name,ee.R,ee.L,10],[name,ee.Y]],
             [content,.>"200".+1000,[ee.L.B.R,[30,-30.+500,-30]],[name,ee.B,ee.T,40]]
