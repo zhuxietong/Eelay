@@ -11,6 +11,7 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(name: "Eelay",targets: ["Eelay"]),
         
+        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,7 +20,9 @@ let package = Package(
     targets: [
         .target(
             name: "Eelay",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"
+        ),
         .testTarget(
             name: "EelayTests",
             dependencies: ["Eelay"]),
