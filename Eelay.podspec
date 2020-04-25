@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Eelay'
-  s.version          = '5.1.1'
+  s.version          = '5.1.2'
   s.summary          = '简易的自动布局方式，超短的代码'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   s.swift_versions = '5.1'
 
-  s.source_files = 'Eelay/Sources/*','Eelay/Sources/**/*','Eelay/Sources/**/**/*','Eelay/Sources/**/**/**/*'
+  s.source_files = 'Sources/*','Sources/**/*','Sources/**/**/*','Sources/**/**/**/*'
   
   # s.resource_bundles = {
   #   'Eelay' => ['Eelay/Assets/*.png']
