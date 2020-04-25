@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "Eelay-debug.module": ["<Eelay-debug.module>"]
+  "EelayPackageTests-debug.test": ["<EelayPackageTests-debug.test>"]
+  "EelayTests-debug.module": ["<EelayTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<Eelay-debug.module>"]
+  "test": ["<Eelay-debug.module>","<EelayPackageTests-debug.test>","<EelayTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/zhuxietong/Documents/Eelay/Sources/":
+    is-directory-structure: true
+  "/Users/zhuxietong/Documents/Eelay/Tests/EelayTests/":
+    is-directory-structure: true
+commands:
+  "<Eelay-debug.module>":
+    tool: phony
+    inputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.swiftmodule"]
+    outputs: ["<Eelay-debug.module>"]
+
+  "<EelayPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayPackageTests.xctest/Contents/MacOS/EelayPackageTests"]
+    outputs: ["<EelayPackageTests-debug.test>"]
+
+  "<EelayTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/EelayTests.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/XCTestManifests.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.swiftmodule"]
+    outputs: ["<EelayTests-debug.module>"]
+
+  "C.Eelay-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/zhuxietong/Documents/Eelay/Sources/Eelay/TP.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/eelay/EeLay.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array&Dictionary-(+-).swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array+extention.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Collection+mutable.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSArray+nodes.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSDictionary+nodes.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/String+reg.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/style/Color-hex.swift"]
+    outputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Eelay"
+    module-output-path: "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.swiftmodule"
+    import-paths: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build"
+    objects: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay-Swift.h","-color-diagnostics"]
+    sources: ["/Users/zhuxietong/Documents/Eelay/Sources/Eelay/TP.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/eelay/EeLay.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array&Dictionary-(+-).swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array+extention.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Collection+mutable.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSArray+nodes.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSDictionary+nodes.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/String+reg.swift","/Users/zhuxietong/Documents/Eelay/Sources/Eelay/style/Color-hex.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "C.EelayPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/EelayTests.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayPackageTests.xctest/Contents/MacOS/EelayPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/EelayPackageTests.xctest/Contents/MacOS/EelayPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug","-o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayPackageTests.xctest/Contents/MacOS/EelayPackageTests","-module-name","EelayPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-Xlinker","-add_ast_path","-Xlinker","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.EelayTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/zhuxietong/Documents/Eelay/Tests/EelayTests/EelayTests.swift","/Users/zhuxietong/Documents/Eelay/Tests/EelayTests/XCTestManifests.swift","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.swiftmodule"]
+    outputs: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/EelayTests.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/XCTestManifests.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "EelayTests"
+    module-output-path: "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.swiftmodule"
+    import-paths: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build"
+    objects: ["/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/EelayTests.swift.o","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/EelayTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/zhuxietong/Documents/Eelay/Tests/EelayTests/EelayTests.swift","/Users/zhuxietong/Documents/Eelay/Tests/EelayTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/zhuxietong/Documents/Eelay/Sources/","/Users/zhuxietong/Documents/Eelay/Tests/EelayTests/","/Users/zhuxietong/Documents/Eelay/Package.swift","/Users/zhuxietong/Documents/Eelay/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

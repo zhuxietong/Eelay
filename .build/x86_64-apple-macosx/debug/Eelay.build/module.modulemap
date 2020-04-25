@@ -1,0 +1,4 @@
+module Eelay {
+    header "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay-Swift.h"
+    requires objc
+}

@@ -1,0 +1,258 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["SD", ""]
+- ["So7NSArrayC", ""]
+- ["So12NSDictionaryC", ""]
+- ["Sa", "mutable_array"]
+- ["SD", "mutable_dictionary"]
+- ["So7NSArrayC", "mutable_array"]
+- ["So12NSDictionaryC", "mutable_dictionary"]
+provides-dynamic-lookup:
+- "mutable_array"
+- "mutable_dictionary"
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- "CastingPrecedence"
+- "Dictionary"
+- !private "Double"
+- !private "Float"
+- !private "Int"
+- !private "Int32"
+- !private "Int64"
+- "NSArray"
+- "NSDictionary"
+- "NSMutableArray"
+- "NSMutableDictionary"
+- !private "String"
+depends-member:
+- !private ["Sa", "NSArray"]
+- ["Sa", "NSMutableArray"]
+- ["Sa", "mutable_array"]
+- !private ["s7CVarArgP", "NSMutableArray"]
+- !private ["s7CVarArgP", "NSMutableDictionary"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mutable_array"]
+- !private ["s7CVarArgP", "mutable_dictionary"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mutable_array"]
+- !private ["s28CustomDebugStringConvertibleP", "mutable_dictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "NSMutableArray"]
+- !private ["s17CustomReflectableP", "NSMutableDictionary"]
+- !private ["s17CustomReflectableP", "add"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "mutable_array"]
+- !private ["s17CustomReflectableP", "mutable_dictionary"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NSMutableArray"]
+- !private ["s23CustomStringConvertibleP", "NSMutableDictionary"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mutable_array"]
+- !private ["s23CustomStringConvertibleP", "mutable_dictionary"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["SD", "NSDictionary"]
+- ["SD", "NSMutableDictionary"]
+- ["SD", "mutable_dictionary"]
+- !private ["SQ", "NSMutableArray"]
+- !private ["SQ", "NSMutableDictionary"]
+- !private ["SQ", "add"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mutable_array"]
+- !private ["SQ", "mutable_dictionary"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "NSMutableArray"]
+- !private ["s25ExpressibleByArrayLiteralP", "add"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "mutable_array"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "NSMutableDictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "mutable_dictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "NSMutableArray"]
+- !private ["SH", "NSMutableDictionary"]
+- !private ["SH", "add"]
+- !private ["SH", "init"]
+- !private ["SH", "mutable_array"]
+- !private ["SH", "mutable_dictionary"]
+- !private ["SH", "subscript"]
+- !private ["So7NSArrayC", "CGFloat"]
+- !private ["So7NSArrayC", "Double"]
+- !private ["So7NSArrayC", "Float"]
+- !private ["So7NSArrayC", "Int"]
+- !private ["So7NSArrayC", "Int32"]
+- !private ["So7NSArrayC", "Int64"]
+- !private ["So7NSArrayC", "NSArray"]
+- !private ["So7NSArrayC", "NSDictionary"]
+- ["So7NSArrayC", "NSMutableArray"]
+- !private ["So7NSArrayC", "String"]
+- !private ["So7NSArrayC", "add"]
+- !private ["So7NSArrayC", "init"]
+- ["So7NSArrayC", "mutable_array"]
+- !private ["So8NSCodingP", "NSMutableArray"]
+- !private ["So8NSCodingP", "NSMutableDictionary"]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mutable_array"]
+- !private ["So8NSCodingP", "mutable_dictionary"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "NSMutableArray"]
+- !private ["So9NSCopyingP", "NSMutableDictionary"]
+- !private ["So9NSCopyingP", "add"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "mutable_array"]
+- !private ["So9NSCopyingP", "mutable_dictionary"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So12NSDictionaryC", "CGFloat"]
+- !private ["So12NSDictionaryC", "Double"]
+- !private ["So12NSDictionaryC", "Float"]
+- !private ["So12NSDictionaryC", "Int"]
+- !private ["So12NSDictionaryC", "Int32"]
+- !private ["So12NSDictionaryC", "Int64"]
+- !private ["So12NSDictionaryC", "NSArray"]
+- !private ["So12NSDictionaryC", "NSDictionary"]
+- ["So12NSDictionaryC", "NSMutableDictionary"]
+- !private ["So12NSDictionaryC", "String"]
+- !private ["So12NSDictionaryC", "init"]
+- ["So12NSDictionaryC", "mutable_dictionary"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So17NSFastEnumerationP", "NSMutableArray"]
+- !private ["So17NSFastEnumerationP", "NSMutableDictionary"]
+- !private ["So17NSFastEnumerationP", "add"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "mutable_array"]
+- !private ["So17NSFastEnumerationP", "mutable_dictionary"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So14NSMutableArrayC", "add"]
+- !private ["So14NSMutableArrayC", "init"]
+- !private ["So16NSMutableCopyingP", "NSMutableArray"]
+- !private ["So16NSMutableCopyingP", "NSMutableDictionary"]
+- !private ["So16NSMutableCopyingP", "add"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "mutable_array"]
+- !private ["So16NSMutableCopyingP", "mutable_dictionary"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So19NSMutableDictionaryC", "deinit"]
+- !private ["So19NSMutableDictionaryC", "init"]
+- !private ["So19NSMutableDictionaryC", "subscript"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int32"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "NSArray"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "NSMutableArray"]
+- ["So8NSObjectC", "NSMutableDictionary"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "mutable_array"]
+- ["So8NSObjectC", "mutable_dictionary"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectP", "NSMutableArray"]
+- !private ["So8NSObjectP", "NSMutableDictionary"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mutable_array"]
+- !private ["So8NSObjectP", "mutable_dictionary"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So14NSSecureCodingP", "NSMutableArray"]
+- !private ["So14NSSecureCodingP", "NSMutableDictionary"]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "mutable_array"]
+- !private ["So14NSSecureCodingP", "mutable_dictionary"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["5Eelay17NodeGetSetSupportP", "add"]
+- !private ["5Eelay17NodeGetSetSupportP", "init"]
+- !private ["5Eelay17NodeGetSetSupportP", "subscript"]
+- !private ["ST", "NSMutableArray"]
+- !private ["ST", "NSMutableDictionary"]
+- !private ["ST", "add"]
+- !private ["ST", "init"]
+- !private ["ST", "mutable_array"]
+- !private ["ST", "mutable_dictionary"]
+- !private ["ST", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "NSMutableArray"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "NSMutableDictionary"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "add"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mutable_array"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mutable_dictionary"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mutable_array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mutable_dictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSMutableArray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSMutableDictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mutable_array"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mutable_dictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
+depends-nominal:
+- "Sa"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "SD"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "SH"
+- "So7NSArrayC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSMutableArrayC"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableDictionaryC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "5Eelay17NodeGetSetSupportP"
+- !private "ST"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "50a68d5594884017acc490a7a68aad77"

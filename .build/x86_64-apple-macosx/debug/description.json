@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "Eelay",
+      "productName" : "EelayPackageTests",
+      "testBinary" : "\/Users\/zhuxietong\/Documents\/Eelay\/.build\/x86_64-apple-macosx\/debug\/EelayPackageTests.xctest\/Contents\/MacOS\/EelayPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.Eelay-debug.module" : "Eelay",
+    "C.EelayTests-debug.module" : "EelayTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

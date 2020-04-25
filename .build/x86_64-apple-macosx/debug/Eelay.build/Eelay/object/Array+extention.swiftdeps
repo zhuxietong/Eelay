@@ -1,0 +1,398 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EeArrayGenerator"
+- "Each"
+provides-nominal:
+- "5Eelay16EeArrayGeneratorC"
+- "5Eelay4EachC"
+provides-member:
+- ["5Eelay16EeArrayGeneratorC", ""]
+- ["5Eelay4EachC", ""]
+- ["So7NSArrayC", ""]
+- ["Sa", ""]
+- ["So7NSArrayC", "reverse_list"]
+- ["So7NSArrayC", "Finish"]
+- ["So7NSArrayC", "forEach"]
+- ["So7NSArrayC", "list"]
+- ["So7NSArrayC", "listObj"]
+- ["Sa", "new"]
+provides-dynamic-lookup:
+- "forEach"
+- "list"
+- "listObj"
+- "reverse_list"
+depends-top-level:
+- !private "+="
+- !private "<"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Each"
+- "EeArrayGenerator"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "NSArray"
+- "NSMutableArray"
+- "Sequence"
+- "Void"
+- !private "print"
+depends-member:
+- ["Sa", "Int"]
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "init"]
+- ["Sa", "new"]
+- !private ["Sa", "print"]
+- !private ["SK", "append"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "print"]
+- !private ["s7CVarArgP", "Each"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "enumerated"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "removeAllObjects"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "print"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "Each"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "Each"]
+- !private ["s17CustomReflectableP", "add"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "print"]
+- !private ["s17CustomReflectableP", "removeAllObjects"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Each"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "removeAllObjects"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "print"]
+- !private ["Se", "append"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "init"]
+- !private ["Se", "print"]
+- ["5Eelay4EachC", "EeArrayGenerator"]
+- ["5Eelay4EachC", "Element"]
+- ["5Eelay4EachC", "Iterator"]
+- ["5Eelay4EachC", "NSArray"]
+- ["5Eelay4EachC", "_Default_Element"]
+- ["5Eelay4EachC", "_copyContents"]
+- ["5Eelay4EachC", "_copyToContiguousArray"]
+- ["5Eelay4EachC", "_customContainsEquatableElement"]
+- ["5Eelay4EachC", "deinit"]
+- ["5Eelay4EachC", "init"]
+- ["5Eelay4EachC", "list"]
+- ["5Eelay4EachC", "makeIterator"]
+- ["5Eelay4EachC", "underestimatedCount"]
+- ["5Eelay4EachC", "withContiguousStorageIfAvailable"]
+- ["5Eelay16EeArrayGeneratorC", "Element"]
+- ["5Eelay16EeArrayGeneratorC", "Int"]
+- ["5Eelay16EeArrayGeneratorC", "NSArray"]
+- ["5Eelay16EeArrayGeneratorC", "NSMutableArray"]
+- ["5Eelay16EeArrayGeneratorC", "count"]
+- ["5Eelay16EeArrayGeneratorC", "deinit"]
+- ["5Eelay16EeArrayGeneratorC", "init"]
+- ["5Eelay16EeArrayGeneratorC", "list"]
+- ["5Eelay16EeArrayGeneratorC", "next"]
+- ["5Eelay16EeArrayGeneratorC", "validate_list"]
+- !private ["SE", "append"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "init"]
+- !private ["SE", "print"]
+- !private ["SQ", "Each"]
+- !private ["SQ", "add"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "enumerated"]
+- ["SQ", "init"]
+- !private ["SQ", "print"]
+- !private ["SQ", "removeAllObjects"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "Each"]
+- !private ["s25ExpressibleByArrayLiteralP", "add"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "print"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAllObjects"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "Each"]
+- !private ["SH", "add"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "enumerated"]
+- ["SH", "init"]
+- !private ["SH", "print"]
+- !private ["SH", "removeAllObjects"]
+- !private ["SH", "reversed"]
+- !private ["SH", "subscript"]
+- ["St", "Element"]
+- ["St", "NSMutableArray"]
+- ["St", ""]
+- !private ["St", "count"]
+- !private ["St", "init"]
+- !private ["St", "list"]
+- ["St", "next"]
+- !private ["St", "validate_list"]
+- !private ["SM", "append"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "init"]
+- !private ["SM", "print"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "print"]
+- !private ["So7NSArrayC", "Each"]
+- ["So7NSArrayC", "Finish"]
+- ["So7NSArrayC", "Int"]
+- !private ["So7NSArrayC", "NSArray"]
+- ["So7NSArrayC", "Void"]
+- !private ["So7NSArrayC", "add"]
+- !private ["So7NSArrayC", "count"]
+- ["So7NSArrayC", "forEach"]
+- ["So7NSArrayC", "init"]
+- ["So7NSArrayC", "list"]
+- ["So7NSArrayC", "listObj"]
+- !private ["So7NSArrayC", "removeAllObjects"]
+- ["So7NSArrayC", "reverse_list"]
+- !private ["So7NSArrayC", "reversed"]
+- !private ["So7NSArrayC", "subscript"]
+- !private ["So8NSCodingP", "Each"]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "removeAllObjects"]
+- !private ["So8NSCodingP", "reversed"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "Each"]
+- !private ["So9NSCopyingP", "add"]
+- !private ["So9NSCopyingP", "count"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "removeAllObjects"]
+- !private ["So9NSCopyingP", "reversed"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So17NSFastEnumerationP", "Each"]
+- !private ["So17NSFastEnumerationP", "add"]
+- !private ["So17NSFastEnumerationP", "count"]
+- ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "removeAllObjects"]
+- !private ["So17NSFastEnumerationP", "reversed"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So14NSMutableArrayC", "add"]
+- !private ["So14NSMutableArrayC", "count"]
+- !private ["So14NSMutableArrayC", "deinit"]
+- ["So14NSMutableArrayC", "init"]
+- !private ["So14NSMutableArrayC", "removeAllObjects"]
+- !private ["So14NSMutableArrayC", "subscript"]
+- !private ["So16NSMutableCopyingP", "Each"]
+- !private ["So16NSMutableCopyingP", "add"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "removeAllObjects"]
+- !private ["So16NSMutableCopyingP", "reversed"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "Each"]
+- ["So8NSObjectC", "Finish"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "forEach"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "list"]
+- ["So8NSObjectC", "listObj"]
+- !private ["So8NSObjectC", "removeAllObjects"]
+- ["So8NSObjectC", "reverse_list"]
+- !private ["So8NSObjectC", "reversed"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectP", "Each"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "count"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "removeAllObjects"]
+- !private ["So8NSObjectP", "reversed"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So14NSSecureCodingP", "Each"]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "count"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "removeAllObjects"]
+- !private ["So14NSSecureCodingP", "reversed"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["5Eelay17NodeGetSetSupportP", "add"]
+- !private ["5Eelay17NodeGetSetSupportP", "count"]
+- ["5Eelay17NodeGetSetSupportP", "init"]
+- !private ["5Eelay17NodeGetSetSupportP", "removeAllObjects"]
+- !private ["5Eelay17NodeGetSetSupportP", "subscript"]
+- !private ["Sk", "append"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "init"]
+- !private ["Sk", "print"]
+- !private ["Sm", "append"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "init"]
+- !private ["Sm", "print"]
+- !private ["ST", "Each"]
+- !private ["ST", "EeArrayGenerator"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "add"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- ["ST", "init"]
+- !private ["ST", "list"]
+- ["ST", "makeIterator"]
+- !private ["ST", "print"]
+- !private ["ST", "removeAllObjects"]
+- !private ["ST", "reversed"]
+- !private ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "print"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "print"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "print"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Each"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "add"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "print"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAllObjects"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Each"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reversed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Each"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAllObjects"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reversed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "print"]
+depends-nominal:
+- "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "5Eelay4EachC"
+- "5Eelay16EeArrayGeneratorC"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "St"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So7NSArrayC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So17NSFastEnumerationP"
+- "So14NSMutableArrayC"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "5Eelay17NodeGetSetSupportP"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "09cc923fcaf3af573b1727f3d8ca6829"

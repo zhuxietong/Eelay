@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "fc4160d0865899918e0e3135b02c7bf1"
+build_time: [1587814442, 794786000]
+inputs:
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/TP.swift": [1587809749, 189381145]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/eelay/EeLay.swift": [1587809764, 905811811]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array&Dictionary-(+-).swift": [1584704340, 0]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array+extention.swift": [1587809712, 715340600]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Collection+mutable.swift": [1587809719, 914893847]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSArray+nodes.swift": [1584704340, 0]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSDictionary+nodes.swift": [1584704340, 0]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/String+reg.swift": [1587809724, 722046843]
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/style/Color-hex.swift": [1587809749, 174758762]

@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/master.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/TP.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/TP.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/eelay/EeLay.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/eelay/EeLay.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array&Dictionary-(+-).swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-)~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array&Dictionary-(+-).swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Array+extention.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Array+extention.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/Collection+mutable.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/Collection+mutable.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSArray+nodes.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSArray+nodes.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/NSDictionary+nodes.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/NSDictionary+nodes.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/object/String+reg.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/object/String+reg.swiftdeps"
+  },
+  "/Users/zhuxietong/Documents/Eelay/Sources/Eelay/style/Color-hex.swift": {
+    "dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.d",
+    "object": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.swift.o",
+    "swiftmodule": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex~partial.swiftmodule",
+    "swift-dependencies": "/Users/zhuxietong/Documents/Eelay/.build/x86_64-apple-macosx/debug/Eelay.build/Eelay/style/Color-hex.swiftdeps"
+  }
+}
