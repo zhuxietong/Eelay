@@ -5,9 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "Eelay",
+    platforms: [
+    .iOS(.v8)],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(name: "Eelay",targets: ["Eelay"]),
+        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.

@@ -5,8 +5,11 @@
 //  Created by tong on 2017/7/16.
 //  Copyright © 2017年 tong. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
+
+
+
 public struct TP {
     
 }
@@ -34,3 +37,5 @@ extension Float:NumberValue{ public var doubleValue:Double{get{return Double(sel
 extension CGFloat:NumberValue{ public var doubleValue:Double{get{return Double(self)}}}
 extension Double:NumberValue{ public var doubleValue:Double{get{return self}}}
 
+
+#endif

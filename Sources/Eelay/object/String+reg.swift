@@ -8,7 +8,9 @@
 
 import Foundation
 import Swift
+#if canImport(UIKit)
 import UIKit
+#endif
 
 public extension String
 {
