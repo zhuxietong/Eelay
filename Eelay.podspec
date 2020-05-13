@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Eelay'
-  s.version          = '5.1.5'
+  s.version          = '5.1.6'
   s.summary          = '简易的自动布局方式，超短的代码'
 
 # This description is used to generate tags and improve search results.

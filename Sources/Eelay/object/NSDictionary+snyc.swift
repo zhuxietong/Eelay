@@ -13,6 +13,11 @@ public struct SyncScheme {
     public let keys:[String]
     public let primaryKey:String
     public let table:String
+    public init(keys:[String],primaryKey:String,table:String){
+        self.keys = keys
+        self.primaryKey = primaryKey
+        self.table = table
+    }
 }
 
 public struct NSDictionaryChangeInfo {
@@ -51,7 +56,6 @@ extension NSMutableDictionary{
         }
         
         let notice = "NSMutableDictionary.\(scheme.table).change.\(scheme.primaryKey)=\(primaryValue)"
-        print("+++++++++=====|\(notice)|")
         let change = NSDictionaryChangeInfo(key: key, value: value, dict: self)
         NotificationCenter.default.post(name: notice.__notice_name, object: change)
     }
@@ -139,7 +143,6 @@ class ValueObserver:NSObject{
     }
   
     deinit {
-        print("++++++Skkk|")
         removeObserver()
     }
 }
