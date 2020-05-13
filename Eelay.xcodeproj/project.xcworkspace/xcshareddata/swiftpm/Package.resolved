@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Eelay",
+        "repositoryURL": "/Users/zhuxietong/Eelay",
+        "state": {
+          "branch": "master",
+          "revision": "9562d2873f63c491b986f26514bd5bf1307868e3",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
