@@ -12,15 +12,23 @@ import Swift
 import UIKit
 #endif
 
+
 public extension String
 {
     
     var CGFloatValue:CGFloat
     {
         get{
-            let value = NSString(string: self)
-            
-            return  CGFloat(value.floatValue)
+            let formatter = NumberFormatter()
+            formatter.groupingSeparator = ""
+            formatter.decimalSeparator = "."
+            formatter.numberStyle = .decimal
+            formatter.formatterBehavior = .default
+            if let n = formatter.number(from: self) {
+                let f = CGFloat(truncating: n)
+                return f
+            }
+           return 0
         }
     }
     
@@ -183,9 +191,7 @@ extension String{
         
 //        let range = Range<String.Index>(start: index1, end: index2)
         
-        let beginString: String = self.copy() as! String
-        
-        
+        let beginString: String = self.copy() as! String        
         var internalExpression: NSRegularExpression?
         do {
             internalExpression = try NSRegularExpression(pattern: reg, options:[])

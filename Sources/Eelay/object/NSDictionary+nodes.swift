@@ -9,10 +9,7 @@
 import Foundation
 
 
-
-
 extension NSMutableDictionary:NodeGetSetSupport{
-    
     public subscript(obj node:String,value:Any?) -> Any? {
         get {
             
@@ -65,7 +62,6 @@ extension NSMutableDictionary:NodeGetSetSupport{
 
             if let obj = self.value(obj: node)
             {
-                
                 if let str = obj as? String
                 {
                     return str
@@ -311,9 +307,7 @@ extension NSMutableDictionary
                         {
                             haveMach = true
                             dict = self
-
                             return dict
-
                         }
                     }
                     
@@ -344,6 +338,91 @@ extension NSMutableDictionary
             
         }
         return dict
+    }
+}
+
+
+
+extension NSMutableDictionary
+{
+    
+//    func value(obj node:String) -> AnyObject?
+//    {
+//        var newNode = node
+//        return self.getValueWithNodes(&newNode)
+//    }
+    
+//    subscript(obj node:String,value:AnyObject?) -> AnyObject? {
+//        get {
+//
+//            if let obj = self.value(obj: node)
+//            {
+//                return obj
+//            }
+//            return value
+//        }
+//    }
+//
+//    subscript(string node:String,value:String?) -> String {
+//        get {
+//            if let obj = self.value(obj: node)
+//            {
+//                return "\(obj)"
+//            }
+//
+//
+//            if let rValue = value
+//            {
+//                return rValue
+//            }
+//            else
+//            {
+//                return ""
+//            }
+//        }
+//    }
+    
+    
+    
+    public subscript(float node:String,value:CGFloat) -> CGFloat {
+        get {
+            
+            let string = self[node,nil]
+            if string != ""
+            {
+//                Float(string) ?? 0
+                return string.CGFloatValue
+            }
+            else
+            {
+                return value
+            }
+        }
+    }
+    
+    public subscript(int node:String,value:Int?) -> Int {
+        get {
+            if let objc = self.value(obj: node)
+            {
+                if let rValue = Int("\(objc)")
+                {
+                    return rValue
+                }
+                else
+                {
+                    return value ?? 0
+                }
+            }
+            
+            if let rValue = value
+            {
+                return rValue
+            }
+            else
+            {
+                return 0
+            }
+        }
     }
 }
 
