@@ -11,11 +11,22 @@ import Foundation
 import UIKit
 #endif
 
-public protocol NSJsonSerial {
+public protocol NSJsonObj {
+    func jsonObj<T>() -> T?
+}
+
+
+public protocol NSJsonSerial:NSJsonObj{
     associatedtype NSJson
     var nsjson:NSJson{get}
 }
 extension Array:NSJsonSerial{
+  
+    
+    public func jsonObj<T>() -> T? {
+        return nsjson as? T
+    }
+    
     public typealias NSJson = NSMutableArray
     public var nsjson: NSJson{
         get{
@@ -24,6 +35,10 @@ extension Array:NSJsonSerial{
     }
 }
 extension Dictionary:NSJsonSerial{
+    
+    public func jsonObj<T>() -> T? {
+        return nsjson as? T
+    }
     public typealias NSJson = NSMutableDictionary
     public var nsjson: NSJson{
         get{
@@ -32,6 +47,10 @@ extension Dictionary:NSJsonSerial{
     }
 }
 extension NSDictionary:NSJsonSerial{
+    
+    public func jsonObj<T>() -> T? {
+        return nsjson as? T
+    }
     public typealias NSJson = NSMutableDictionary
     public var nsjson: NSJson{
         get{
@@ -41,6 +60,10 @@ extension NSDictionary:NSJsonSerial{
 }
 
 extension NSArray:NSJsonSerial{
+    
+    public func jsonObj<T>() -> T? {
+        return nsjson as? T
+    }
     public typealias NSJson = NSMutableArray
     public var nsjson: NSJson{
         get{
@@ -48,6 +71,8 @@ extension NSArray:NSJsonSerial{
         }
     }
 }
+
+
 
 public extension Array
 {
