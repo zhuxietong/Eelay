@@ -146,11 +146,8 @@ extension NSMutableDictionary
         
         let paths = nodes.components(separatedBy: ".")
         var newPaths = [String]()
-        
-       
         for (index,value) in paths.enumerated()
         {
-            
             if index != 0
             {
                 newPaths.append(value)
@@ -197,19 +194,14 @@ extension NSMutableDictionary
                 else{
                     return nil
                 }
-
             }
         }
         else
         {
-            
             if paths.count < 2
             {
-
-                
                 if let v = self.object(forKey: value0)
                 {
-                    
                     return v
                 }
                 else{
@@ -235,7 +227,6 @@ extension NSMutableDictionary
     {
         var paths = toNode.components(separatedBy: ".")
         let name = paths.last
-        
         if paths.count > 2
         {
             paths.removeLast()
@@ -248,23 +239,14 @@ extension NSMutableDictionary
             }
         }
 
-        
-        
 //        let newNode = paths.mutable_array.componentsJoined(by: ".")
-        
         let newNode = paths.joined(separator: ".")
-
-        
-
         if let dic = self.value(obj: newNode) as? NSMutableDictionary
         {
             if value != nil && name != nil{
                 dic.setObject(value!, forKey: name! as NSCopying)
             }
         }
-
-        
-        
     }
     
     //    subscript(node:String) ->AnyObject{
@@ -276,9 +258,6 @@ extension NSMutableDictionary
     //            return value
     //        }
     //    }
-    
-    
-    
     
 }
 
@@ -382,11 +361,8 @@ extension NSMutableDictionary
 //        }
 //    }
     
-    
-    
     public subscript(float node:String,value:CGFloat) -> CGFloat {
         get {
-            
             let string = self[node,nil]
             if string != ""
             {

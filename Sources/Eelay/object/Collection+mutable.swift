@@ -10,6 +10,45 @@ import Foundation
 #if canImport(UIKit)
 import UIKit
 #endif
+
+public protocol NSJsonSerial {
+    associatedtype NSJson
+    var nsjson:NSJson{get}
+}
+extension Array:NSJsonSerial{
+    public typealias NSJson = NSMutableArray
+    public var nsjson: NSJson{
+        get{
+            return self.mutable_array
+        }
+    }
+}
+extension Dictionary:NSJsonSerial{
+    public typealias NSJson = NSMutableDictionary
+    public var nsjson: NSJson{
+        get{
+            return self.mutable_dictionary
+        }
+    }
+}
+extension NSDictionary:NSJsonSerial{
+    public typealias NSJson = NSMutableDictionary
+    public var nsjson: NSJson{
+        get{
+            return self.mutable_dictionary
+        }
+    }
+}
+
+extension NSArray:NSJsonSerial{
+    public typealias NSJson = NSMutableArray
+    public var nsjson: NSJson{
+        get{
+            return self.mutable_array
+        }
+    }
+}
+
 public extension Array
 {
     var mutable_array:NSMutableArray
