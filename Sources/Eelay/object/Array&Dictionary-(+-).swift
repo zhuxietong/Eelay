@@ -8,6 +8,20 @@
 
 import Foundation
 
+extension NSMutableDictionary{
+    @discardableResult
+    @objc public func combine(_ obj:NSMutableDictionary)->NSMutableDictionary {
+        let ks = obj.allKeys.map{"\($0)"}
+        for k in ks {
+            if let value = obj.object(forKey: k)
+            {
+                self[k] = value
+            }
+            
+        }
+        return self
+    }
+}
 
 
 
