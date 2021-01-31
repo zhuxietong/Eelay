@@ -21,10 +21,14 @@ public extension String {
     //        return String(self[self.characters.index(self.startIndex, offsetBy: range.lowerBound)..<self.characters.index(self.startIndex, offsetBy: range.upperBound)])
     //    }
     
-    func sub(from:Int,end:Int) -> String {
+    public func sub(from:Int,end:Int) -> String {
         let s = self.index(self.startIndex, offsetBy: from)
-        let e = self.index(self.startIndex, offsetBy: end)
+        var _end = end
+        if end >= self.count{
+            _end = self.count
+        }
         
+        let e = self.index(self.startIndex, offsetBy: _end)
         let subvalues = self[s..<e] // One-sided Slicing
         return String(subvalues)
         

@@ -68,8 +68,8 @@ extension NSMutableDictionary:NodeGetSetSupport{
                 }
                 var v = "\(obj)"
                 if v == "<null>"
-                {                
-                    v = ""
+                {
+                    v = value ?? ""
                 }
                 return v
             }
@@ -401,4 +401,5 @@ extension NSMutableDictionary
         }
     }
 }
+
 
