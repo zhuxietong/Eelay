@@ -76,7 +76,7 @@ public func .+<T>(value:T,p:Double) -> Any  {
     
     if value is String
     {
-        return ["=":value,"p":"\(p)"]
+        return ["=":value,"p":"\(p)"] as [String : Any]
     }
     return value
     
